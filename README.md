@@ -1,2 +1,2 @@
-# portfolio from CS50x Home Page project
-My first web-portfolio using Html, CSS and JS.
+# portfolio
+CS50x Home Page project: web-portfolio using Html, CSS and JS.
