@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
+/*------WEB------*/
+html {
+    scroll-behavior: smooth;
+    
+}
+
+body {
+    background-color: #f8f9fd;
+    width: 100vw;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*------NAVBAR MENU------*/
+
+    /* Box */
+ul, nav, header {
+    display: flex;
+}
+
+header {
+    background-color: #f8f9fd;
+    padding: 10px 0;
+    width: 100vw;
+    position: fixed;
+    justify-content: flex-end;
+    box-shadow: 0 0 15px 0 #B0B0B4;
+    top: 0;
+    left: 0;
+}    
+    /* Items */
+ul {
+    list-style-type: none;
+    align-items: flex-end;
+}
+
+.nav-header {
+    margin-right: 10%;
+}
+
+.menu-header{
+    margin: 6px;
+    padding: 10px;
+}
+
+.button {
+    background-color: #182E4B;
+    border-radius: 15px;
+    color: #F8F9FD;
+    padding: 10px 40px;
+}
+
+li {
+    color: #3668A9;
+}
+
+/*------INDEX------*/
+/*---Quote---*/
+.quote, .start-quote, .end-quote {
+    display: flex;
+}
+
+.quote_area {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100vw;
+    padding: 100px;
+    background: linear-gradient(180deg, #c6dcff 0%, #f8f9f6 60%, #F8F9FD 99%);
+    color: #182E4B;
+}
+
+.start-quote {
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+}
+
+.quote {
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-style: italic;
+    font-size: xx-large;
+    text-shadow:  2px 1px 0px #B0B0B4;
+}
+
+.end-quote {
+    width: 40px;
+    margin-top: auto;
+}
+
+.author_quote {
+    text-align: right;
+    margin-right: 30px;
+}
+
+/*---Name---*/
+.name, .img-home{
+    display: flex;
+}
+
+.name {
+    width: 100vw;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.magui {
+    width: 100;
+}
+
+.description {
+    padding-top: 20px;
+    padding-left: 5px;
+    letter-spacing: 1px;
+}
+
+.img-home {
+    width: 80%;
+}
+
+/*-----PROJECTS-----*/
+
+.projects {
+    padding: 110px;
+    display: block;  
+}
+
+.images-project {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 80px;
+}
+
+.img-project {
+    width: 200px;
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-project-web {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.img-project-cs {
+    width: 140px;
+    height: 140px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.buttons {
+    align-content: center;
+    box-shadow: #B0B0B4;
+    margin: auto;
+}
+
+.skills {
+    padding: 0px 110px;
+    display: block;  
+    align-content: center;
+}
+
+.img-skill {
+    width: 100px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 200px;
+}
+
+/*-----STUDIES-----*/
+.studies {
+    margin-top: 150px;
+}
+
+.std_area_l {
+    margin-left: 100px;
+    padding: 10px;
+}
+
+.std_area_r {
+    text-align: right;
+    margin-right: 100px;
+}
+
+.center-logo-hv {
+    margin-left: 10px;
+    width: 60px;
+    padding-right: 5px;
+}
+
+.center-logo-uba {
+    margin-left: 1px;
+    width: 100px;
+    padding-right: 5px;
+}
+
+.center-logo-cfp {
+    margin-left: 10px;
+    width: 70px;
+    padding-right: 5px;
+}
+
+.center {
+    margin-left: 40px;
+    color: #3668A9;
+}
+
+.type {
+    margin-left: 60px;
+    color: #3668A9;
+}
+
+.info {
+    margin-left: 60px;
+}
+
+.details {
+    margin-left: 60px;
+    font-size: 16pt;
+    letter-spacing: 1.5px;
+}
+
+/*-----ABOUT ME-----*/
+.about {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.title-about {
+    margin-left: 150px;
+    padding-top: 50px;
+    text-align: left;
+    font-size: 40pt;
+    letter-spacing: 1px;
+}
+
+.me-area{
+    display: flex;
+}
+
+.img-me {
+    width: 220px;
+    height: 300px;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+.description-about {
+    text-align: justify;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 500px;
+    font-family: 'Trebuchet MS';
+    letter-spacing: 1px;
+    
+}
+
+/*-----FOOTER-----*/
+.footer, .contact {
+    display: flex;
+    align-content: center;
+}
+.footer {
+    flex-direction: column;
+    align-content: center;
+}
+
+.contact {
+    margin:auto;
+}
+
+.img-contact {
+    width:100px;
+    padding: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin: 10px;
+}
+
+.by-footer {
+    margin:auto;
+    margin-bottom: 20px;
+    padding-top: 70px;
+    color: rgb(46, 106, 148);
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.name-footer {
+    color: rgb(83, 191, 241);
+    font-size: 20px;
+    font-weight: 550;
+}
+.emoji-heart {
+    width: 24px;
+    padding-bottom: 4px;
+}
+
+/*____TEXTOS____*/
+header {
+    font-size: 16pt;
+    font-weight: medium;
+    letter-spacing: 1px;
+}
+
+a:hover {
+    font-weight: 500;
+    text-decoration: none;
+    
+}
+
+p {
+    font-weight: 400;
+    font-size: 20pt;
+}
+
+h1 {
+    text-align: left;
+    font-weight: 600;
+    font-size: 35pt;
+    letter-spacing: 4px;
+    color: #182E4B;
+    text-shadow: 0px 2px 3px #B0B0B4;
+}
+
+h2 {
+    font-size: 45px;
+    text-shadow: 0px 2px 2px #B0B0B4;
+    letter-spacing: 2px;
+    color: #3668A9;
+}
+
+h3 {
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+h4 {
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+h5 {
+    font-size: 25px;
+    color: #424242;
+    letter-spacing: 2px;
+}
+
+hr {
+    border: 1px solid #3668A9;
+}
+
+button {
+    background-color: #F8F9FD;
+    border-radius: 12px;
+    font-family: sans-serif;
+    color: #3668A9;
+    letter-spacing: 1px;
+    font-weight: 600;
+    padding: 7px 10px;
+}
+
+/*____COLORES____
+White #F8F9FD
+Brighter: #f8f9f6
+Bright: #C6DCFF
+Medium: #3668A9
+Dark: #182E4B
+Black: #0D1623
+Shadow: #B0B0B4 */
+
+/*------MOBILE------*/
+@media (max-width: 599px) {
+
+    /*FOOTER*/
+
+    .img-contact {
+        width: 100;
+    }
+    .img-heart-emoji{
+        width: 25;
+    }
+}
+
