@@ -29,7 +29,7 @@ ul, nav, header {
 
 header {
     background-color: #f8f9fd;
-    padding: 10px 0;
+    padding: 4px 0;
     width: 100vw;
     position: fixed;
     justify-content: flex-end;
@@ -50,6 +50,10 @@ ul {
 .menu-header{
     margin: 6px;
     padding: 10px;
+}
+
+.btn-contacto, .btn-contacto:hover {
+    color: #F8F9FD;
 }
 
 .button {
@@ -81,29 +85,34 @@ li {
 
 .start-quote {
     display: inline-flex;
-    width: 40px;
-    height: 40px;
+    margin-right: 8px;
+    width: 35px;
+    height: 35px;
 }
 
 .quote {
-    margin-top: 40px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin: 200px 150px 20px;
     text-align: center;
-    letter-spacing: 2px;
     font-style: italic;
-    font-size: xx-large;
-    text-shadow:  2px 1px 0px #B0B0B4;
+    font-size: 1.6vw;
+    text-shadow:  1px 1px 0px #B0B0B4;
 }
 
 .end-quote {
-    width: 40px;
+    width: 35px;
     margin-top: auto;
+    margin-right: 60px;
 }
 
 .author_quote {
     text-align: right;
-    margin-right: 30px;
+    font-size: 1.3vw;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+
+.book {
+    font-style: italic;
 }
 
 /*---Name---*/
@@ -118,17 +127,21 @@ li {
     align-items: center;
 }
 .magui {
-    width: 100;
+    width: %90;
 }
 
 .description {
     padding-top: 20px;
     padding-left: 5px;
     letter-spacing: 1px;
+    font-weight: normal;
 }
 
 .img-home {
-    width: 80%;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*-----PROJECTS-----*/
@@ -167,11 +180,17 @@ li {
     margin-right: auto;
 }
 
+#square {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .buttons {
     align-content: center;
     box-shadow: #B0B0B4;
     margin: auto;
+    margin-left: 40px;
 }
 
 .skills {
@@ -236,7 +255,6 @@ li {
 
 .details {
     margin-left: 60px;
-    font-size: 16pt;
     letter-spacing: 1.5px;
 }
 
@@ -250,7 +268,6 @@ li {
     margin-left: 150px;
     padding-top: 50px;
     text-align: left;
-    font-size: 40pt;
     letter-spacing: 1px;
 }
 
@@ -259,19 +276,32 @@ li {
 }
 
 .img-me {
-    width: 220px;
-    height: 300px;
-    margin-top: 30px;
+    width: 15%;
     margin-left: 150px;
+    margin-top: 30px;
+}
+
+.txt-about {
+    display: block;
+}
+
+.hello {
+    font-size: 1.4vw;
+    color: #3668A9;
+    letter-spacing: 1.5px;
+    text-shadow: 0px 1px 1px #B0B0B4;
+    display: block;
+    margin: 40px 20px 20px;
 }
 
 .description-about {
     text-align: justify;
-    margin-top: 40px;
     margin-left: 20px;
-    margin-right: 500px;
+    margin-right: 600px;
     font-family: 'Trebuchet MS';
+    color: #182E4B;
     letter-spacing: 1px;
+    font-size: 1.1vw;
     
 }
 
@@ -304,13 +334,11 @@ li {
     padding-top: 70px;
     color: rgb(46, 106, 148);
     font-weight: 400;
-    font-size: 18px;
     letter-spacing: 1px;
 }
 
 .name-footer {
     color: rgb(83, 191, 241);
-    font-size: 20px;
     font-weight: 550;
 }
 .emoji-heart {
@@ -318,54 +346,53 @@ li {
     padding-bottom: 4px;
 }
 
-/*____TEXTOS____*/
+/*____ELEMENTS____*/
 header {
-    font-size: 16pt;
+    font-size: 1vw;
     font-weight: medium;
     letter-spacing: 1px;
 }
 
 a:hover {
     font-weight: 500;
-    text-decoration: none;
-    
+    text-decoration: none;    
 }
 
 p {
     font-weight: 400;
-    font-size: 20pt;
+    font-size: 1vw;
 }
 
 h1 {
     text-align: left;
     font-weight: 600;
-    font-size: 35pt;
-    letter-spacing: 4px;
+    font-size: 2.2vw;
+    letter-spacing: 2px;
     color: #182E4B;
     text-shadow: 0px 2px 3px #B0B0B4;
 }
 
 h2 {
-    font-size: 45px;
+    font-size: 2vw;
     text-shadow: 0px 2px 2px #B0B0B4;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
     color: #3668A9;
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 1.3vw;
     letter-spacing: 2px;
 }
 
 h4 {
-    font-size: 30px;
+    font-size: 1vw;
     letter-spacing: 2px;
 }
 
 h5 {
-    font-size: 25px;
+    font-size: 1vw;
     color: #424242;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 hr {
@@ -374,12 +401,23 @@ hr {
 
 button {
     background-color: #F8F9FD;
+    border-color: #3668A9;
     border-radius: 12px;
-    font-family: sans-serif;
+    font-size: 1vw;
     color: #3668A9;
-    letter-spacing: 1px;
-    font-weight: 600;
-    padding: 7px 10px;
+    font-family: 'Consolas';
+    padding: 6px 8px;
+    margin-left: 5px;
+}
+
+button:hover {
+    background-color: #3668A9;
+    border-color: #3668A9;
+    color: #F8F9FD;
+}
+
+img {
+    max-width: 100%;
 }
 
 /*____COLORES____

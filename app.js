@@ -1,10 +1,15 @@
 //HomePage
 
-
 //Proyectos
-let gitBtn = document.getElementById("git-btn");
+function visitUrl (url) {
+    window.open(url, '_blank');
+}
 
-//git_btn.onclick = () => {
+
+//PORTFOLIO "https://github.com/maguilococo/portfolio" "http://htmlpreview.github.io/?https://github.com/maguilococo/portfolio/blob/master/index.html"
+//PAPER "https://github.com/maguilococo/workshopJS" "https://htmlpreview.github.io/?https://github.com/maguilococo/workshopJS/blob/master/index.html"
+//PIANO "https://github.com/maguilococo/piano"   
+//CS50 "https://github.com/me50/maguilococo"
 
 //Contact
 let mailContact = document.getElementById("mail-contact");

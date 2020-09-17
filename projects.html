@@ -8,6 +8,8 @@
         
         <title>Home</title>
 
+        <link rel="icon" type="image/svg" href="images/fav-icon.svg">
+
         <!-- Bootstrap -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <!-- style.csss -->
@@ -19,88 +21,69 @@
         <header>
             <nav class="nav-header">
                 <ul id="ul-header">
-                    <a href="index.html">
-                        <li class="menu-header">Home</li>
-                    </a>
-                    <a href="projects.html">
-                        <li class="menu-header">Proyectos</li>
-                    </a>    
-                    <a href="studies.html">
-                        <li class="menu-header">Conocimientos</li>
-                    </a>
-                    <a href="about.html">
-                        <li class="menu-header">About</li>
-                    </a>
-                    <a href="#contact">
-                        <li class="menu-header button">Contacto</li>
-                    </a>
+                    <li class="menu-header">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="menu-header">
+                        <a href="projects.html">Proyectos</a>
+                    </li>
+                    <li class="menu-header">
+                        <a href="studies.html">Conocimientos</a>
+                    </li>
+                    <li class="menu-header">
+                        <a href="about.html">About</a>
+                    </li>
+                    <li class="menu-header button">
+                        <a href="#contact" class="btn-contacto">Contacto</a>
+                    </li>
                 </ul>
             </nav>
         </header>
 
         <div class="projects">
 
-            <h2>Poyectos</h2>
+            <h2>Proyectos</h2>
             <hr>
             <div class="images-project">
                 <div class="piano-pj">
-                    <img class="img-project" src="images/piano.jpg">
-                    <div class="buttons-projects">
-                        <div class="buttons">
-                            <a href="studies.html">
-                                <button name="btn-projet" id="git-btn">
-                                    GitHub
-                                </button>
-                            </a>    
-                            <button name="btn-project" id="run-btn">
-                                Run
-                            </button>
-                        </div>
+                    <img class="img-project" src="images/piano.jpg" alt="piano">
+                    <div class="buttons">
+                        <button onclick="visitUrl('https://github.com/maguilococo/piano');" name="btn-projet" class="git-btn">
+                            Code
+                        </button>    
+                        <button name="btn-project" class="run-btn">
+                            Demo
+                        </button>
                     </div>
                 </div>
                 <div class="paper-pj">
-                    <img class="img-project" src="images/paper.jpg">
-                    <div class="buttons-projects">
-                        <div class="buttons">
-                            <a href="https://github.com/maguilococo/workshopJS">
-                                <button name="btn-projet" id="git-btn">
-                                    GitHub
-                                </button>
-                            </a>    
-                            <button name="btn-project" id="run-btn">
-                                Run
-                            </button>
-                        </div>
+                    <img class="img-project" src="images/paper.jpg" alt="paper">
+                    <div class="buttons">
+                        <button onclick="visitUrl('https://github.com/maguilococo/workshopJS');" name="btn-projet" class="git-btn">
+                            Code
+                        </button>
+                        <button onclick="visitUrl('https://htmlpreview.github.io/?https://github.com/maguilococo/workshopJS/blob/master/index.html');" name="btn-project" class="run-btn">
+                            Demo
+                        </button>
                     </div>
                 </div>
                 <div class="web-pj">
-                    <img class="img-project-web" src="images/Studying-bro.svg">
-                    <div class="buttons-projects">
-                        <div class="buttons">
-                            <a href="studies.html">
-                                <button name="btn-projet" id="git-btn">
-                                    GitHub
-                                </button>
-                            </a>    
-                            <button name="btn-project" id="run-btn">
-                                Run
-                            </button>
-                        </div>
+                    <img class="img-project-web" src="images/Studying-bro.svg" alt="web">
+                    <div class="buttons">
+                        <button onclick="visitUrl('https://github.com/maguilococo/portfolio');" name="btn-projet" class="git-btn">
+                            Code
+                        </button>
+                        <button onclick="visitUrl('http://htmlpreview.github.io/?https://github.com/maguilococo/portfolio/blob/master/index.html');" name="btn-project" class="run-btn">
+                            Demo
+                        </button>
                     </div>
                 </div>
                 <div class="cs-pj">    
-                    <img class="img-project-cs" src="images/cs50.png">
-                    <div class="buttons-projects">
-                        <div class="buttons">
-                            <a href="studies.html">
-                                <button name="btn-projet" id="git-btn">
-                                    GitHub
-                                </button>
-                            </a>    
-                            <button name="btn-project" id="run-btn">
-                                Run
-                            </button>
-                        </div>
+                    <img class="img-project-cs" src="images/cs50.png" alt="cs50">
+                    <div class="buttons">
+                        <button onclick="visitUrl('https://github.com/me50/maguilococo');" name="btn-projet" class="git-btn">
+                            Code
+                        </button>
                     </div>
                 </div>
             </div>    
@@ -110,34 +93,35 @@
             <h2>Skills</h2>
             <hr>
             <div class="images-project">
-                <img class="img-skill" src="images/java.svg">
-                <img class="img-skill" src="images/html.svg">
-                <img class="img-skill" src="images/css.svg">
-                <img class="img-skill" src="images/javascript.svg">
-                <img class="img-skill" src="images/C.svg">
-                <img class="img-skill" src="images/mysql.svg">
-                <img class="img-skill" src="images/sql.svg">
-                <img class="img-skill" src="images/piton.svg">
+                <img class="img-skill" src="images/java.svg" alt="java">
+                <img class="img-skill" src="images/html.svg" alt="html">
+                <img class="img-skill" src="images/css.svg" alt="css">
+                <img class="img-skill" src="images/javascript.svg" alt="js">
+                <img class="img-skill" src="images/C.svg" alt="c">
+                <img class="img-skill" src="images/mysql.svg" alt="my-sql">
+                <img class="img-skill" src="images/sql.svg" alt="sql">
+                <img class="img-skill" src="images/piton.svg" alt="python">
+            </div>
         </div>
         <footer class="footer">
             <div class="contact" id="contact">
                 <a target="_blank" href="mailto:magdalenalococo@gmail.com">
-                    <img class="img-contact" id="mail-contact" src="images/close_mail_footer.svg">
+                    <img class="img-contact" id="mail-contact" src="images/close_mail_footer.svg" alt="img-contact">
                 </a>
                 <a target="_blank" href="https://www.linkedin.com/in/magdalenalococo/">
-                    <img class="img-contact" id="linkedin-contact" src="images/linkedin_footer.svg">
+                    <img class="img-contact" id="linkedin-contact" src="images/linkedin_footer.svg" alt="img-contact">
                 </a>
                 <a target="_blank" href="https://github.com/maguilococo">
-                    <img class="img-contact" id="git-contact" src="images/git_footer.svg">
+                    <img class="img-contact" id="git-contact" src="images/git_footer.svg" alt="img-contact">
                 </a>
             </div>
 
             <p class="by-footer">
                 By<span class="name-footer"> Magui Lococo </span> con
-                <img class="emoji-heart" src="images/heart_emoji.svg">
+                <img class="emoji-heart" src="images/heart_emoji.svg" alt="heart">
             </p>
         </footer>
+        
         <script src="app.js"></script>
     </body>
-
 </html>
