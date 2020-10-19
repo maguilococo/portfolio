@@ -90,9 +90,12 @@ blockquote {
   width: 80%;
 }
 
+.title-project {
+  color: #3668A9!important;
+}
+
 hr {
-  border-top: 0.1em solid #3668A9;
-  
+  border-top: 0.1em solid #3668A9;  
 }
 
 /*___STUDIES___*/
