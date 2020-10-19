@@ -48,8 +48,8 @@ ul {
 }
 
 .menu-header{
-    margin: 6px;
-    padding: 10px;
+    margin: 5px;
+    padding: 8px;
 }
 
 .btn-contacto, .btn-contacto:hover {
@@ -78,37 +78,38 @@ li {
     align-items: center;
     align-content: center;
     width: 100vw;
-    padding: 100px;
+    padding: 8rem;
     background: linear-gradient(180deg, #c6dcff 0%, #f8f9f6 60%, #F8F9FD 99%);
     color: #182E4B;
 }
 
 .start-quote {
     display: inline-flex;
-    margin-right: 8px;
+    margin-right: 1rem;
     width: 35px;
     height: 35px;
 }
 
 .quote {
-    margin: 200px 150px 20px;
+    margin-top: 8rem;
+    justify-content: center;
     text-align: center;
     font-style: italic;
-    font-size: 1.6vw;
-    text-shadow:  1px 1px 0px #B0B0B4;
+    font-size: calc(1em + 0.7vw);
+    text-shadow:  0.07rem 0.07rem 0px #B0B0B4;
 }
 
 .end-quote {
     width: 35px;
     margin-top: auto;
-    margin-right: 60px;
+    margin-right: 0.6rem;
 }
 
 .author_quote {
     text-align: right;
-    font-size: 1.3vw;
-    margin-right: 200px;
-    margin-top: 50px;
+    font-size: calc(1em + 0.4vw);
+    margin-right: 2rem;
+    margin-top: 3rem;
 }
 
 .book {
@@ -125,9 +126,6 @@ li {
     padding: 100px;
     justify-content: center;
     align-items: center;
-}
-.magui {
-    width: %90;
 }
 
 .description {
@@ -267,7 +265,7 @@ li {
 .title-about {
     margin-left: 150px;
     padding-top: 50px;
-    text-align: left;
+    text-align: left; 
     letter-spacing: 1px;
 }
 
@@ -277,6 +275,7 @@ li {
 
 .img-me {
     width: 15%;
+    height: 15%;
     margin-left: 150px;
     margin-top: 30px;
 }
@@ -286,7 +285,7 @@ li {
 }
 
 .hello {
-    font-size: 1.4vw;
+    font-size: calc(1em + 0.7vw);
     color: #3668A9;
     letter-spacing: 1.5px;
     text-shadow: 0px 1px 1px #B0B0B4;
@@ -301,7 +300,7 @@ li {
     font-family: 'Trebuchet MS';
     color: #182E4B;
     letter-spacing: 1px;
-    font-size: 1.1vw;
+    font-size: calc(1em + 0.4vw);
     
 }
 
@@ -348,7 +347,7 @@ li {
 
 /*____ELEMENTS____*/
 header {
-    font-size: 1vw;
+    font-size: calc(1em + 0.075vw);
     font-weight: medium;
     letter-spacing: 1px;
 }
@@ -360,37 +359,37 @@ a:hover {
 
 p {
     font-weight: 400;
-    font-size: 1vw;
+    font-size: calc(1em + 0.12vw);
 }
 
 h1 {
     text-align: left;
     font-weight: 600;
-    font-size: 2.2vw;
+    font-size: calc(1em + 1.45vw);
     letter-spacing: 2px;
     color: #182E4B;
     text-shadow: 0px 2px 3px #B0B0B4;
 }
 
 h2 {
-    font-size: 2vw;
+    font-size: calc(1em + 0.7vw);
     text-shadow: 0px 2px 2px #B0B0B4;
     letter-spacing: 1.5px;
     color: #3668A9;
 }
 
 h3 {
-    font-size: 1.3vw;
+    font-size: calc(1em + 0.7vw);
     letter-spacing: 2px;
 }
 
 h4 {
-    font-size: 1vw;
+    font-size: calc(1em + 0.4vw);
     letter-spacing: 2px;
 }
 
 h5 {
-    font-size: 1vw;
+    font-size: calc(1em + 0.2vw);
     color: #424242;
     letter-spacing: 1px;
 }
@@ -403,7 +402,7 @@ button {
     background-color: #F8F9FD;
     border-color: #3668A9;
     border-radius: 12px;
-    font-size: 1vw;
+    font-size: calc(1em + 0.01vw);
     color: #3668A9;
     font-family: 'Consolas';
     padding: 6px 8px;

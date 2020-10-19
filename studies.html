@@ -4,63 +4,85 @@
         <!-- browsers -->
         <meta charset="UTF-8">
         <!-- mobile -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         
-        <title>Home</title>
+        <title>Conocimientos</title>
 
-        <link rel="icon" type="image/svg" href="images/fav-icon.svg">
-
-        <!-- Bootstrap -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        
+         <link rel="icon" type="image/svg" href="images/fav-icon.svg">
+        
+         <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        
         <!-- style.csss -->
-        <link rel="stylesheet" href="style.css">
-        <!-- Fontawesome -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+        <link rel="stylesheet" href="style_resp.css">
 
-        <body>
-            <header>
-                <nav class="nav-header">
-                    <ul id="ul-header">
-                        <li class="menu-header">
-                            <a href="index.html">Home</a>
-                        </li>
-                        <li class="menu-header">
-                            <a href="projects.html">Proyectos</a>
-                        </li>
-                        <li class="menu-header">
-                            <a href="studies.html">Conocimientos</a>
-                        </li>
-                        <li class="menu-header">
-                            <a href="about.html">About</a>
-                        </li>
-                        <li class="menu-header button">
-                            <a href="#contact" class="btn-contacto">Contacto</a>
-                        </li>
-                    </ul>
-                </nav>
-            </header>
-    
-        <div class="studies" id="studies">
-            <div class="std_area_r">
-                <h3>
-                    <a class="center" href="http://www.uba.ar/" target="_blank">
-                        <img class="center-logo-uba" src="images/UBA-01.svg" alt="center-logo-uba">
-                        Universidad de Buenos Aires </a>
-                </h3>
-                <h4>
-                    <a class="type" href="http://filosofia.filo.uba.ar/" target="_blank">Licenciatura en Filosofía</a>
-                </h4>
-                <h5 class="info">
-                    2016 - 2022
-                </h5>
-                <p class="details">
-                    - Filosofía de la Lógica <br>
-                    - Filosofía del lenguaje <br>
-                    - Teconología.
+
+    </head>    
+    <body>
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light shadow p-2 mb-2 bg-white rounded justify-content-end fixed-top navbar-custom">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="projects.html">Proyectos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="studies.html">Conocimientos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contacto</a>
+                </li>
+              </ul>
+            </div>
+        </nav> 
+      </header>
+
+    <div class="container pt-5 pb-5 studies" id="studies">
+        <div class="media pt-5">
+            <!-- <a class="center" href="http://www.uba.ar/" target="_blank"></a> -->
+                <img src="images/UBA-01.svg" class="mr-3" alt="Generic placeholder image">
+                <div class="media-body">
+                    <h3 class="mt-0">Universidad de Buenos Aires</h3>
+                    <h4 class="mt-0"><a class="type" href="http://filosofia.filo.uba.ar/" target="_blank">Licenciatura en Filosofía</a></h4>
+                    <h5>2016 - 2022</h5>
+                    <p>
+                      - Filosofía de la Lógica <br>
+                      - Filosofía del lenguaje <br>
+                      - Teconología.
+                    </p>
+                </div>
+        </div>
+        <div class="media pt-5">
+          <!-- <a class="center" href="http://www.uba.ar/" target="_blank"></a> -->
+            <img src="images/harvard-logo.svg" class="m-5 mt-4 harvard-logo" alt="Generic placeholder image">
+            <div class="media-body">
+                <h3 class="mt-0">Harvard University</h3>
+                <h4 class="mt-0"><a class="type" href="https://cs50.harvard.edu/x/2020/" target="_blank">CS50x Introduction to Computer Science</a></h4>
+                <h5>2020</h5>
+                <p>
+                  - C: Algorithms, Memory Allocation, Data Structures <br>
+                  - SQLite3: CDRUD operations <br>
+                  - Python: Data Structures, SQLite3 <br>
+                  - Web Design: HTML, Css, JavaScript
                 </p>
             </div>
+      </div>
+    </div>
 
-            <div class="std_area_l">
+            <!-- <div class="std_area_l">
                 <h3>
                     <a class="center" href="https://www.harvard.edu/" target="_blank">
                         <img class="center-logo-hv" src="images/harvard-logo.svg" alt="center-logo-hv">
@@ -115,28 +137,34 @@
                     Intercambio académico
                 </p>
             </div>        
-        </div>
+        </div> -->
         
-        <footer class="footer">
-            <div class="contact" id="contact">
+        <div class="container pt-5 pb-5">
+            <div class="row justify-content-center">
+              <div class="col-md-2 mt-4">
                 <a target="_blank" href="mailto:magdalenalococo@gmail.com">
-                    <img class="img-contact" id="mail-contact" src="images/close_mail_footer.svg" alt="img-contact">
+                    <img id="mail-contact" src="images/close_mail_footer.svg" class="img-fluid mx-auto d-block contact" alt="Responsive image">  
                 </a>
+              </div>
+              <div class="col-md-2 mt-4">
                 <a target="_blank" href="https://www.linkedin.com/in/magdalenalococo/">
-                    <img class="img-contact" id="linkedin-contact" src="images/linkedin_footer.svg" alt="img-contact">
+                  <img id="linkedin-contact" src="images/linkedin_footer.svg" class="img-fluid mx-auto d-block contact" alt="Responsive image">  
                 </a>
+              </div>
+              <div class="col-md-2 mt-4">
                 <a target="_blank" href="https://github.com/maguilococo">
-                    <img class="img-contact" id="git-contact" src="images/git_footer.svg" alt="img-contact">
+                  <img id="git-contact" src="images/git_footer.svg" class="img-fluid mx-auto d-block contact" alt="Responsive image">  
                 </a>
+              </div>
             </div>
-
-            <p class="by-footer">
-                By<span class="name-footer"> Magui Lococo </span> con
-                <img class="emoji-heart" src="images/heart_emoji.svg" alt="heart">
+          </div>
+          <div class="container pt-3 pb-3">
+            <p class="text-center by-footer">
+              By <span id="name-footer"> Magui Lococo </span> con 
+              <img id="emoji-heart" src="images/heart_emoji.svg" class="img-fluid" alt="Responsive image">
             </p>
-        </footer>
-
+          </div>
+    
         <script src="app.js"></script>
-    </body>
-
-</html>
+        </body>
+    </html>
