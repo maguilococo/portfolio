@@ -1,9 +1,9 @@
 //HomePage
 
 //Proyectos
-function visitUrl (url) {
+/*function visitUrl (url) {
     window.open(url, '_blank');
-}
+}*/
 
 //Contact
 let mailContact = document.getElementById("mail-contact");
@@ -27,3 +27,4 @@ gitContact.onclick = () => {
         gitContact.src = "images/github-click.svg";
     }, 2000);
 }
+
